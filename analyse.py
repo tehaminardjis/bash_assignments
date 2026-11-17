@@ -3,8 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Lecture du fichier CSV
-data = pd.read_csv("resultats/mesures.csv")
-
+data = pd.read_csv("resultats.csv")
 # Afficher les 5 premières lignes
 print(data.head())
 
